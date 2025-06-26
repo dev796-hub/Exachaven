@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ExecHaven | The Private Luxury SaaS Platform</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0b0c10;
+      color: #f5f5f5;
+      overflow-x: hidden;
+    }
+    header {
+      background-color: #0b0c10;
+      padding: 2rem;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .logo {
+      font-size: 2.5rem;
+      color: gold;
+      font-weight: bold;
+      animation: slideDown 1.5s ease forwards;
+    }
+    nav {
+      margin-top: 1rem;
+      opacity: 0;
+      animation: fadeIn 2s ease 2s forwards;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #cfcfcf;
+      font-weight: 500;
+    }
+    .hero {
+      padding: 5rem 2rem;
+      text-align: center;
+      background: linear-gradient(to bottom right, #111217, #20232b);
+      animation: fadeIn 2.5s ease-in-out;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      color: gold;
+      opacity: 0;
+      animation: slideUp 2s ease forwards;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: auto;
+      color: #ccc;
+      opacity: 0;
+      animation: fadeIn 3s ease 1.5s forwards;
+    }
+    .cta-button {
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      background-color: gold;
+      color: black;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 8px;
+      transform: scale(0.9);
+      animation: pulse 2s infinite ease-in-out;
+    }
+    section.features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 4rem 2rem;
+    }
+    .feature {
+      background-color: #1b1c22;
+      padding: 2rem;
+      border-radius: 12px;
+      border: 1px solid #2d2f36;
+      transform: translateY(20px);
+      opacity: 0;
+      animation: fadeSlideUp 1s ease forwards;
+    }
+    .feature:nth-child(1) { animation-delay: 0.5s; }
+    .feature:nth-child(2) { animation-delay: 1s; }
+    .feature:nth-child(3) { animation-delay: 1.5s; }
+    .feature:nth-child(4) { animation-delay: 2s; }
+    .feature:nth-child(5) { animation-delay: 2.5s; }
+    .feature h3 {
+      color: gold;
+    }
+    footer {
+      padding: 2rem;
+      text-align: center;
+      background-color: #0b0c10;
+      color: #aaa;
+      font-size: 0.9rem;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; } to { opacity: 1; }
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-50px); opacity: 0; } to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes slideUp {
+      from { transform: translateY(50px); opacity: 0; } to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">EXECHAVEN</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#vision">Vision</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Redefining Legacy in the Digital Age</h1>
+    <p>The first ultra-luxury SaaS platform for the world’s most powerful leaders. Unlock a private AI-powered empire built only for the elite.</p>
+    <button class="cta-button">Request Access</button>
+  </section>
+
+  <section class="features" id="features">
+    <div class="feature">
+      <h3>Biometric Symbol of Entry</h3>
+      <p>Gain access through an iconic luxury smart ring – a secure, personalized gateway to your legacy suite.</p>
+    </div>
+    <div class="feature">
+      <h3>Private AI Wealth Suite</h3>
+      <p>Command private GPT tools, manage generational wealth, and receive real-time asset insights globally.</p>
+    </div>
+    <div class="feature">
+      <h3>Legacy Intelligence Vault</h3>
+      <p>Store encrypted family archives, philosophies, and instructions to pass on power and values across time.</p>
+    </div>
+    <div class="feature">
+      <h3>Elite Concierge</h3>
+      <p>Access bespoke 24/7 hybrid concierge services blending AI precision and human excellence.</p>
+    </div>
+    <div class="feature">
+      <h3>Gated Global Network</h3>
+      <p>Connect with select billionaires, royals, family offices, and modern legacy builders worldwide.</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    &copy; 2025 ExecHaven. All rights reserved. | Contact: press@exachaven.com
+  </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ExecHaven | The Private Luxury SaaS Platform</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0b0c10;
+      color: #f5f5f5;
+      overflow-x: hidden;
+    }
+    header {
+      background-color: #0b0c10;
+      padding: 2rem;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .logo {
+      font-size: 2.5rem;
+      color: gold;
+      font-weight: bold;
+      animation: slideDown 1.5s ease forwards;
+    }
+    nav {
+      margin-top: 1rem;
+      opacity: 0;
+      animation: fadeIn 2s ease 2s forwards;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #cfcfcf;
+      font-weight: 500;
+    }
+    .hero {
+      padding: 5rem 2rem;
+      text-align: center;
+      background: linear-gradient(to bottom right, #111217, #20232b);
+      animation: fadeIn 2.5s ease-in-out;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      color: gold;
+      opacity: 0;
+      animation: slideUp 2s ease forwards;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: auto;
+      color: #ccc;
+      opacity: 0;
+      animation: fadeIn 3s ease 1.5s forwards;
+    }
+    .cta-button {
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      background-color: gold;
+      color: black;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 8px;
+      transform: scale(0.9);
+      animation: pulse 2s infinite ease-in-out;
+    }
+    section.features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 4rem 2rem;
+    }
+    .feature {
+      background-color: #1b1c22;
+      padding: 2rem;
+      border-radius: 12px;
+      border: 1px solid #2d2f36;
+      transform: translateY(20px);
+      opacity: 0;
+      animation: fadeSlideUp 1s ease forwards;
+    }
+    .feature:nth-child(1) { animation-delay: 0.5s; }
+    .feature:nth-child(2) { animation-delay: 1s; }
+    .feature:nth-child(3) { animation-delay: 1.5s; }
+    .feature:nth-child(4) { animation-delay: 2s; }
+    .feature:nth-child(5) { animation-delay: 2.5s; }
+    .feature h3 {
+      color: gold;
+    }
+    footer {
+      padding: 2rem;
+      text-align: center;
+      background-color: #0b0c10;
+      color: #aaa;
+      font-size: 0.9rem;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; } to { opacity: 1; }
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-50px); opacity: 0; } to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes slideUp {
+      from { transform: translateY(50px); opacity: 0; } to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">EXECHAVEN</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#vision">Vision</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Redefining Legacy in the Digital Age</h1>
+    <p>The first ultra-luxury SaaS platform for the world’s most powerful leaders. Unlock a private AI-powered empire built only for the elite.</p>
+    <button class="cta-button">Request Access</button>
+  </section>
+
+  <section class="features" id="features">
+    <div class="feature">
+      <h3>Biometric Symbol of Entry</h3>
+      <p>Gain access through an iconic luxury smart ring – a secure, personalized gateway to your legacy suite.</p>
+    </div>
+    <div class="feature">
+      <h3>Private AI Wealth Suite</h3>
+      <p>Command private GPT tools, manage generational wealth, and receive real-time asset insights globally.</p>
+    </div>
+    <div class="feature">
+      <h3>Legacy Intelligence Vault</h3>
+      <p>Store encrypted family archives, philosophies, and instructions to pass on power and values across time.</p>
+    </div>
+    <div class="feature">
+      <h3>Elite Concierge</h3>
+      <p>Access bespoke 24/7 hybrid concierge services blending AI precision and human excellence.</p>
+    </div>
+    <div class="feature">
+      <h3>Gated Global Network</h3>
+      <p>Connect with select billionaires, royals, family offices, and modern legacy builders worldwide.</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    &copy; 2025 ExecHaven. All rights reserved. | Contact: press@exachaven.com
+  </footer>
+</body>
+</html>
